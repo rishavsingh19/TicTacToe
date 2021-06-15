@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="tablestyle.css">
+
+</head>
+
+<body>
+    <div>
+        <h1>Tic Tac Toe</h1>
+    </div>
+    <div class="container-out" id="tableox">
+        <div class="container-in">
+            <div class="table-container">
+                <p><span id="player"></span></p>
+                <table align="center">
+                    <tr>
+                        <td>
+                            <div class="box"></div>
+                        </td>
+                        <td>
+                            <div class="box"></div>
+                        </td>
+                        <td>
+                            <div class="box"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="box"></div>
+                        </td>
+                        <td>
+                            <div class="box"></div>
+                        </td>
+                        <td>
+                            <div class="box"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="box"></div>
+                        </td>
+                        <td>
+                            <div class="box"></div>
+                        </td>
+                        <td>
+                            <div class="box"></div>
+                        </td>
+                    </tr>
+                </table>
+
+                <h2 id="message"><span id="winner"></span></h2>
+                <button id="reset">Reset Board</button>
+                <a href="first.html"><button id="restartgame">Restart Game</button></a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="selectX.js"></script>
+</body>
+
+</html>
